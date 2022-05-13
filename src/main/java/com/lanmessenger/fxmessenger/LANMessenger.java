@@ -1,5 +1,7 @@
 package com.lanmessenger.fxmessenger;
 
+import com.lanmessenger.network.ChatServer;
+import com.lanmessenger.network.TCPConnection;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

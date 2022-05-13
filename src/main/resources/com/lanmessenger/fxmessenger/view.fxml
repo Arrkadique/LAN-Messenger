@@ -21,5 +21,6 @@
             <Font name="Garuda" size="35.0" />
          </font>
       </Label>
+      <Button fx:id="server_button" layoutX="390.0" layoutY="37.0" mnemonicParsing="false" style="-fx-background-color: b4e34f;" text="Start server" />
    </children>
 </AnchorPane>

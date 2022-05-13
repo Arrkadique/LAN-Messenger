@@ -6,14 +6,14 @@ import java.util.ArrayList;
 
 
 public class ChatServer implements TCPConnectionListener {
-
-    public static void launchServer(String[] args){
+//172.17.0.1    172.17.255.255
+    public static void main(String[] args){
         new ChatServer();
     }
 
     private final ArrayList<TCPConnection> connections = new ArrayList<>();
 
-    private ChatServer(){
+    public ChatServer(){
         System.out.println("Server running...");
         try(ServerSocket serverSocket = new ServerSocket(8189)) {
             while (true){
